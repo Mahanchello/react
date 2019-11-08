@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "func-names": 0,
+    "no-new": 0,
+    "no-trailing-spaces": 0,
+    "no-undef": 0,
+    "no-unused-expressions": 0,
+    "padded-blocks": 0,
+    "quote-props": 0,
+    "require-jsdoc/require-jsdoc": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  },
+}

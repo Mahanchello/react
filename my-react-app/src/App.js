@@ -54,7 +54,8 @@ class App extends Component {
           library={this.state.attributes[1].library}>
         </UserOutput>
         <UserInput
-          changed={this.nameChangeHandler} />
+          changed={this.nameChangeHandler}
+          currentLibrary={this.state.attributes[1].library} />
         <div className="Input">
           <button
             onClick={() => this.switchNameHandler("Ana")}>Switch name
